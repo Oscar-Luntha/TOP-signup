@@ -95,3 +95,12 @@ button {
     font-size: small;
     letter-spacing: .1rem;
 }
+
+input:user-invalid{
+    outline: 2px solid rgb(243, 12, 12);
+    border: none;
+}
+input:user-valid{
+    outline: 2px solid rgb(66, 199, 33);
+    border: none;
+}
